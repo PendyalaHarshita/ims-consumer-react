@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 
 import Login from './components/Login';
 import Registration from './components/Registration';
+import Product from './components/Product';
 /*To use the Font-awesome, install all given packages from npm into your app.
 
 npm i --save @fortawesome/fontawesome-svg-core
@@ -51,6 +52,8 @@ function App() {
             <Routes>
               <Route path = '/register' element={<Registration/>}></Route>
               <Route path = '/login' element={<Login/>}></Route>
+
+              <Route path = '/product' element = {<Product/>}></Route>
             </Routes>
           </Router>
         </div>
